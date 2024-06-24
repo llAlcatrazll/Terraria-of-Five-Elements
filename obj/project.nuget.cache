@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z1/iJ+sGdXbwZutwnI4Oakt/xp0vnG2MNIkMdJXSHQRLCX2XzZbHj9qS0Z+e8niO7/xHT0I3JEmXGGkqTjo0Gw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alexi\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\EdmundSword\\EdmundSword.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexi\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

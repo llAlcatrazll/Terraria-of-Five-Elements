@@ -2,11 +2,11 @@
 
 Items: {
 	DevSword: {
-		DisplayName: DevSword
+		DisplayName: Dev Sword
 		Tooltip:
 			'''
 			For the Glory of God
-			By the Wrath of God
+			For the Wrath of God
 			'''
 	}
 }

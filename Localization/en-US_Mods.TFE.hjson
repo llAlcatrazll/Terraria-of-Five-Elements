@@ -1,6 +1,11 @@
 # This file will automatically update with entries for new content after a build and reload.
 
 Items: {
+	DesertHelmet: {
+		DisplayName: Desert Helmet
+		Tooltip: "A helm for the desert wanderer"
+	}
+
 	DevSword: {
 		DisplayName: Dev Sword
 		Tooltip:

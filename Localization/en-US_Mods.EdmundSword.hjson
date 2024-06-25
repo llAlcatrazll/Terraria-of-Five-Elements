@@ -1,13 +1,12 @@
 # This file will automatically update with entries for new content after a build and reload.
 
 Items: {
-	nillasIII: {
-		DisplayName: nillas I I I
+	DevSword: {
+		DisplayName: DevSword
 		Tooltip:
 			'''
-			Template of an item
-			Replacing this tooltip is duty 
-			It's snowing on Mt.Fuji
+			For the Glory of God
+			By the Wrath of God
 			'''
 	}
 }

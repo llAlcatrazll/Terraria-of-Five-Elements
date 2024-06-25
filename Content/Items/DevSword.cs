@@ -2,14 +2,14 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace EdmundSword.Content.Items
+namespace TFE.Content.Items
 { 
 	// This is a basic item template.
 	// Please see tModLoader's ExampleMod for every other example:
 	// https://github.com/tModLoader/tModLoader/tree/stable/ExampleMod
-	public class nillasIII : ModItem
+	public class DevSword : ModItem
 	{
-		// The Display Name and Tooltip of this item can be edited in the 'Localization/en-US_Mods.EdmundSword.hjson' file.
+		// The Display Name and Tooltip of this item can be edited in the 'Localization/en-US_Mods.DevSword.hjson' file.
 		public override void SetDefaults()
 		{
 			Item.damage = 99999;

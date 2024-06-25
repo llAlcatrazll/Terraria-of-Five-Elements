@@ -1,0 +1,10 @@
+Mods: {
+	TFE: {
+		Items: {
+			DevSword: {
+				DisplayName: Dev Sword
+				Tooltip: ""
+			}
+		}
+	}
+}

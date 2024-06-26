@@ -9,4 +9,19 @@ Items: {
 			For the Wrath of God
 			'''
 	}
+
+	Alcatraz_Head: {
+		Tooltip: ""
+		DisplayName: Alcatraz_ Head
+	}
+
+	Alcatraz: {
+		Tooltip: ""
+		DisplayName: Alcatraz
+	}
+
+	ExampleTallHelmet: {
+		DisplayName: Example Tall Helmet
+		Tooltip: ""
+	}
 }

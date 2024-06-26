@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TFE.Content.armor
+namespace TFE.Content.Armor
 {
 	// This class shows an example of making a tall helmet using ArmorIDs.Head.Sets.IsTallHat.
 	// Tall helmets like the Wizard Hat are drawn with slightly different logic, so be sure to consult an existing Head animation sprite.

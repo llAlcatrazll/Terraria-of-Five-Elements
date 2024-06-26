@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TFE.Content.armor{
+namespace TFE.Content.Armor{
   [AutoloadEquip(EquipType.Head)]
     public class Alcatraz : ModItem{
         public override void SetDefaults()

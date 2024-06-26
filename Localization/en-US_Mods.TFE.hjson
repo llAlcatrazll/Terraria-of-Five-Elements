@@ -3,7 +3,7 @@
 Items: {
 	DesertHelmet: {
 		DisplayName: Desert Helmet
-		Tooltip: "A helm for the desert wanderer"
+		Tooltip: A helm for the desert wanderer
 	}
 
 	DevSword: {

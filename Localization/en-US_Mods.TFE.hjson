@@ -29,4 +29,26 @@ Items: {
 		DisplayName: Example Tall Helmet
 		Tooltip: ""
 	}
+
+	Emberblade: {
+		DisplayName: Emberblade
+		Tooltip: ""
+	}
+
+	BasicEarthYoyo: {
+		DisplayName: Basic Earth Yoyo
+		Tooltip: ""
+	}
+
+	BrassKnuckles: {
+		DisplayName: Brass Knuckles
+		Tooltip: ""
+	}
+
+	HydroSpear: {
+		DisplayName: Hydro Spear
+		Tooltip: ""
+	}
 }
+
+Projectiles.BasicEarthYoyoProjectile.DisplayName: Basic Earth Yoyo Projectile

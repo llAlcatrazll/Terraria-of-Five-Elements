@@ -1,9 +1,11 @@
 // using ExampleMod.Content.Projectiles;
+using TFE.Content.Buffs;
+using TFE.Content.Dusts;
 using Terraria;
 using Terraria.Audio;
 using Terraria.ID;
 using Terraria.ModLoader;
-
+using Microsoft.Xna.Framework;
 namespace TFE.Content.Weapons
 {
 	public class HydroSpear : ModItem
@@ -11,6 +13,7 @@ namespace TFE.Content.Weapons
 		public override void SetStaticDefaults() {
 			ItemID.Sets.SkipsInitialUseSound[Item.type] = true; // This skips use animation-tied sound playback, so that we're able to make it be tied to use time instead in the UseItem() hook.
 			ItemID.Sets.Spears[Item.type] = true; // This allows the game to recognize our new item as a spear.
+            
 		}
 
 		public override void SetDefaults() {
@@ -51,8 +54,22 @@ namespace TFE.Content.Weapons
 			return null;
 		}
 
-		// Please see Content/ExampleRecipes.cs for a detailed explanation of recipe creation.
-		public override void AddRecipes() {
+        public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone)
+        {
+           	// target.AddBuff("WetDebuff", 300, false);
+            // target.AddBuff(ModContent.BuffType<WetDebuff>(), 240);
+            // target.AddBuff(BuffID.OnFire, 1800);
+              
+        }
+public override void MeleeEffects(Player player, Rectangle hitbox)
+        {
+            if (Main.rand.NextBool(6) )
+            {
+                Dust.NewDust(new Vector2(hitbox.X, hitbox.Y), hitbox.Width, hitbox.Height, ModContent.DustType<WaterSplash>());
+            }
+        }
+        // Please see Content/ExampleRecipes.cs for a detailed explanation of recipe creation.
+        public override void AddRecipes() {
 			CreateRecipe()
 				// .AddIngredient<ExampleItem>()
 				// .AddTile<Tiles.Furniture.ExampleWorkbench>()

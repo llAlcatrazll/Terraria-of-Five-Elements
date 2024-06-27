@@ -60,3 +60,10 @@ Projectiles: {
 	BasicEarthYoyoProjectile.DisplayName: Basic Earth Yoyo Projectile
 	WindShieldProjectile.DisplayName: Wind Shield Projectile
 }
+
+Buffs: {
+	WetDebuff: {
+		DisplayName: Wet Debuff
+		Description: Mods.TFE.Buffs.WetDebuff.Description
+	}
+}

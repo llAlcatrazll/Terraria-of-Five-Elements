@@ -13,6 +13,7 @@ namespace TFE.Content.Armor{
          Item.rare = ItemRarityID.Cyan;
         //  Item.vanity = true;
          Item.defense = 2;
+         Item.accessory = true;
         //  Item.headSlot = 1;
         }
     }

@@ -21,34 +21,42 @@ Items: {
 	}
 
 	Alcatraz: {
-		Tooltip: ""
 		DisplayName: Alcatraz
+		Tooltip: ""
 	}
 
 	ExampleTallHelmet: {
 		DisplayName: Example Tall Helmet
-		Tooltip: ""
+		Tooltip: A very Tall Helmet
 	}
 
 	Emberblade: {
 		DisplayName: Emberblade
-		Tooltip: ""
+		Tooltip: A Blade Forged in the forge of Ygdrassil
 	}
 
 	BasicEarthYoyo: {
 		DisplayName: Basic Earth Yoyo
-		Tooltip: ""
+		Tooltip: A simple contraption made of rocks
 	}
 
 	BrassKnuckles: {
 		DisplayName: Brass Knuckles
-		Tooltip: ""
+		Tooltip: Get in the face of enemies
 	}
 
 	HydroSpear: {
 		DisplayName: Hydro Spear
-		Tooltip: ""
+		Tooltip: A relic of the past found in the dessert pyramids
+	}
+
+	WindShield: {
+		DisplayName: Wind Shield
+		Tooltip: A channeled wind boomering fitting for those who wishes for peace
 	}
 }
 
-Projectiles.BasicEarthYoyoProjectile.DisplayName: Basic Earth Yoyo Projectile
+Projectiles: {
+	BasicEarthYoyoProjectile.DisplayName: Basic Earth Yoyo Projectile
+	WindShieldProjectile.DisplayName: Wind Shield Projectile
+}

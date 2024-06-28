@@ -6,7 +6,8 @@ using Terraria.Audio;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
-namespace TFE.Content.Weapons
+// 
+namespace TFE.Content.Items.Weapons
 {
 	public class HydroSpear : ModItem
 	{

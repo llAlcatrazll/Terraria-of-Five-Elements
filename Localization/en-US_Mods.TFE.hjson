@@ -54,6 +54,11 @@ Items: {
 		DisplayName: Wind Shield
 		Tooltip: A channeled wind boomering fitting for those who wishes for peace
 	}
+
+	LargeElementalStatue1: {
+		Tooltip: ""
+		DisplayName: Large Elemental Statue1
+	}
 }
 
 Projectiles: {

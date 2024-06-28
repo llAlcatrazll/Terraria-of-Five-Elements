@@ -6,7 +6,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TFE.Content.Weapons
+namespace TFE.Content.Items.Weapons
 {
     public class WindShield : ModItem
     {

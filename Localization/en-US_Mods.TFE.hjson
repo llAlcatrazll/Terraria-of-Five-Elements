@@ -15,16 +15,6 @@ Items: {
 			'''
 	}
 
-	Alcatraz_Head: {
-		Tooltip: ""
-		DisplayName: Alcatraz_ Head
-	}
-
-	Alcatraz: {
-		DisplayName: Alcatraz
-		Tooltip: ""
-	}
-
 	ExampleTallHelmet: {
 		DisplayName: Example Tall Helmet
 		Tooltip: A very Tall Helmet
@@ -58,6 +48,16 @@ Items: {
 	LargeElementalStatue1: {
 		Tooltip: ""
 		DisplayName: Large Elemental Statue1
+	}
+
+	SandBaronHelmet: {
+		DisplayName: Sand Baron Helmet
+		Tooltip: ""
+	}
+
+	SandBaronRobe: {
+		Tooltip: ""
+		DisplayName: Sand Baron Robe
 	}
 }
 

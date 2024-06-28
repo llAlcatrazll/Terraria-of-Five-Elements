@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 
 namespace TFE.Content.Armor{
   [AutoloadEquip(EquipType.Head)]
-    public class Alcatraz : ModItem{
+    public class SandBaronHelmet : ModItem{
         public override void SetDefaults()
         {
          Item.width = 18;
